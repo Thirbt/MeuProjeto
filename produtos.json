@@ -1,0 +1,36 @@
+{
+    "produtos": [
+        {
+            "id": 1,
+            "nome": "mouse",
+            "valor": 15.90,
+            "promocao": false,
+            "valorPromo": 0,
+            "imagem": "mouse.jpg"
+        },
+        {
+            "id": 2,
+            "nome": "câmera",
+            "valor": 30.00,
+            "promocao": true,
+            "valorPromo": 15.00,
+            "imagem": "camera.jpg"
+        },
+        {
+            "id": 3,
+            "nome": "controle PS4",
+            "valor": 280.50,
+            "promocao": false,
+            "valorPromo": 0,
+            "imagem": "controle.jpg"
+        },
+        {
+            "id": 4,
+            "nome": "laptop sansung",
+            "valor": 2200.90,
+            "promocao": true,
+            "valorPromo": 1899.99,
+            "imagem": "laptop.jpg"
+        }
+    ]
+}

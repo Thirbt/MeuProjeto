@@ -1,0 +1,39 @@
+<div class="container main-container">
+    <h3>Interpolation</h3>
+    <p>O número de cliques é: {{ contadorClique }}</p>
+
+    <br>
+    <br>
+
+    <h3>Property Binding</h3>
+
+    <button class="btn btn-info" [disabled]="contadorClique >= 10">Info</button>
+
+    <br>
+    <br>
+
+    <button class="btn btn-primary" (click)="mostrarInformacoes()">Informações</button>
+
+    <br>
+    <br>
+
+    <img [src]=urlImagem height="150px" width="200px">
+
+    <br>
+    <br>
+
+    <h3>Event Binding</h3>
+    <button class="btn btn-warning" (click)='adicionarClique()'>Clique-me</button><br><br>
+    <button class="btn btn-danger" (click)='desabilitaContador()' [disabled]="contadorClique < 10">Volta marcador para 0</button>
+
+    <br>
+    <br>
+
+    <h3>Two-Way Binding</h3>
+
+    <input type="text" (keyup)="keyUp($event)" placeholder="Digite seu nome">
+    <br>
+    <br>
+    <label>Seu nome é: {{ nome }}</label>
+
+</div>

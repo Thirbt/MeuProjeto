@@ -1,0 +1,8 @@
+<div *ngFor="let produto of produtos" class="card" style="width: 18rem;">
+    <img src="https://a-static.mlcdn.com.br/1500x1500/controle-gamer-tgt-ac130-pc-ps3-tgt-ac130/pichauinfo/tgt-ac130/8206ff0f1ee8732f5f0aa761d4797619.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{ produto.nome | titlecase}}</h5>
+      <p>Por Apenas:</p>
+      <h5 class="card-title">{{ produto.valor | currency:'BRL'}}</h5>
+    </div>
+  </div>
